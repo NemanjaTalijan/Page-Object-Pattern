@@ -24,8 +24,8 @@ class TestHomePage(EnvironmentSetup):
             print(e)
             print("All elements not present!")
 
-        hp.set_email("admin@phptravels.com")
-        hp.set_password("demoadmin")
+        hp.set_email("email-not valid")
+        hp.set_password("pass-not valid")
         hp.click_login_button()
         time.sleep(3)
 
